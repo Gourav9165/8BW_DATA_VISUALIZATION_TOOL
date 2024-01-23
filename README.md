@@ -49,4 +49,6 @@ The script includes error handling for data loading. If an error occurs during t
 **7. Main Execution:**
 
 The script checks if it is being run as the main module (if __name__ == "__main__":). If true, it creates the Tkinter root window and runs the data visualization tool within the Tkinter event loop using root.mainloop().
+
+
 In summary, this script provides a user-friendly data visualization tool that allows users to load data from files and dynamically plot various types of charts. The integration of Tkinter, pandas, and matplotlib makes it accessible for users to explore and visualize data interactively, making it a valuable tool for data analysis and exploration.
