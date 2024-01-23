@@ -59,8 +59,6 @@ class DataVisualizationTool:
                     self.df.plot.scatter(x="Units", y="Total", ax=ax)
                 else:
                     print("Required columns 'X-axis' and 'Y-axis' not found.")
-            # elif chart_type == "Pie Chart":
-            #     self.df.plot.pie(ax=ax, subplots=True)
             elif chart_type == "Histogram":
                 self.df.plot.hist(ax=ax)
 
@@ -75,7 +73,6 @@ class DataVisualizationTool:
         else:
             print("No data to plot.")
 
-if __name__ == "__main__":
-    root = tk.Tk()
-    app = DataVisualizationTool(root)
-    root.mainloop()
+root = tk.Tk()
+app = DataVisualizationTool(root)
+root.mainloop()
